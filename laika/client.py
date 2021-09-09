@@ -4,7 +4,7 @@ import time
 from requests import request
 from urllib.parse import urlparse
 
-from model import *
+from .model import *
 
 
 class Endpoints(object):

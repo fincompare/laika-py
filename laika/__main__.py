@@ -1,7 +1,7 @@
 
 
 import time, sys, argparse, signal
-import client
+from . import client
 
 args = argparse.ArgumentParser(
 	description="Laika client example",

@@ -10,13 +10,13 @@ with open('requirements.txt') as f:
 
 setuptools.setup(
 	name="laika",
-	version="0.0.2",
+	version="0.0.3",
 	author="FinCompare GmbH",
 	author_email="info@fincompare.com",
 	description="Python client for laika feature-flagging",
 	long_description=long_description,
 	long_description_content_type="text/markdown",
-	url="https://github.com/fincompare/laika-py.git",
+	url="https://github.com/fincompare/laika-py",
 	packages=setuptools.find_packages(),
 	classifiers=[
 		"Programming Language :: Python :: 3",
