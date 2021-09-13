@@ -9,14 +9,14 @@ with open('requirements.txt') as f:
 
 
 setuptools.setup(
-	name="laika-py",
-	version="0.0.1",
-	author="Mert Akengin",
-	author_email="mert.akengin@fincompare.com",
-	description="Python client for laika",
+	name="laika",
+	version="0.0.3",
+	author="FinCompare GmbH",
+	author_email="info@fincompare.com",
+	description="Python client for laika feature-flagging",
 	long_description=long_description,
 	long_description_content_type="text/markdown",
-	url="https://github.com/fincompare/laika.git",
+	url="https://github.com/fincompare/laika-py",
 	packages=setuptools.find_packages(),
 	classifiers=[
 		"Programming Language :: Python :: 3",

@@ -7,6 +7,8 @@ within the application process, you should not initialize it per-request.
 
 Basic usage is shown below:
 
+> Install: `python3 -m pip install -U git+https://github.com/fincompare/laika-py.git#egg=laika
+
 ```
 from laika.client import Client as LaikaClient
 
